@@ -2,16 +2,23 @@
 using namespace std;
 
 int main() {
-int x = 5;
-int y = x;
-int z = x + 2;
+  //declare varibals
+  int x;
+  int y;
+  int z;
+
+//assign values to variables and output
+x=5;
+cout << x;
+y = x;
+cout << y;
+z = x +2;
+cout << z;
 x = 3;
-cout << "variables";
-cout << endl;
-cout << x << " - x integer";
-cout << endl;
-cout << y << " - y integer";
-cout << endl;
-cout << z << " - z integer";
-return 0;
+cout << x;
+  return 0;
 }
+
+
+
+
